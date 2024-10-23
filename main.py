@@ -8,6 +8,7 @@ def encode(password):
         encoded_password = encoded_password + str(j)
     return encoded_password
 
+# Decode() by David Chen
 def decode(password):
     decoded = ""
     for i in password:
